@@ -1,0 +1,69 @@
+using System;
+using Cysharp.Threading.Tasks;
+using TMPro;
+using TrainAI.SO.Base;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace TrainAI.UI
+{
+    public class UIDialogueController : UIScreenBase
+    {
+        [SerializeField] TMP_Text npcName;
+        [SerializeField] TMP_Text history;
+        [SerializeField] TMP_InputField input;
+        [SerializeField] Button sendButton;
+        [SerializeField] Button closeButton;
+        [SerializeField] PlayerStateRSO playerState;
+
+        Func<string, UniTask<string>> _replyFn;
+        NPCSO _npc;
+        UniTaskCompletionSource _tcs;
+
+        protected override void Awake()
+        {
+            base.Awake();
+            if (sendButton != null) sendButton.onClick.AddListener(OnSend);
+            if (closeButton != null) closeButton.onClick.AddListener(OnClose);
+        }
+
+        string _playerName;
+
+        public UniTask ShowAsync(NPCSO npc, string playerName, Func<string, UniTask<string>> replyFn)
+        {
+            _npc = npc;
+            _playerName = playerName;
+            _replyFn = replyFn;
+            _tcs = new UniTaskCompletionSource();
+            if (npcName != null) npcName.text = npc != null ? npc.displayName : "";
+            if (history != null) history.text = npc != null ? $"[{npc.displayName}] Chao dong chi, co chuyen gi vay?" : "";
+            if (input != null) input.text = "";
+            Show();
+            return _tcs.Task;
+        }
+
+        async void OnSend()
+        {
+            if (_replyFn == null || input == null) return;
+            string text = input.text;
+            if (string.IsNullOrWhiteSpace(text)) return;
+            string pName = !string.IsNullOrEmpty(_playerName) ? _playerName : (playerState != null ? playerState.DisplayName : "Ban");
+            if (history != null) history.text += $"\n[{pName}] {text}";
+            input.text = "";
+            try
+            {
+                string reply = await _replyFn(text);
+                if (history != null) history.text += $"\n[{(_npc != null ? _npc.displayName : "NPC")}] {reply}";
+            }
+            catch (Exception e)
+            {
+                // Sentis inference can fail under low VRAM; show a friendly
+                // line instead of crashing the dialogue panel.
+                if (history != null) history.text += $"\n[NPC] ...";
+                Debug.LogWarning($"[Dialogue] reply failed: {e.Message}");
+            }
+        }
+
+        void OnClose() { _tcs?.TrySetResult(); Hide(); }
+    }
+}

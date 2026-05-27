@@ -1,0 +1,21 @@
+{
+    "name": "TrainAI.Services",
+    "rootNamespace": "TrainAI.Services",
+    "references": [
+        "TrainAI.Core",
+        "TrainAI.SO.Base",
+        "TrainAI.SO.Concrete",
+        "TrainAI.Sentis",
+        "Unity.InferenceEngine",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

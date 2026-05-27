@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_GDQuocPhong_6_08
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "\u0110\u1ED1i v\u1EDBi nh\xE2n d\xE2n, qu\xE2n nh\xE2n ph\u1EA3i:"
+  answers:
+  - "Xa l\xE1nh"
+  - "T\xF4n tr\u1ECDng, gi\xFAp \u0111\u1EE1, g\u1EAFn b\xF3"
+  - "T\u1EADn thu"
+  - "Kh\xF4ng quan t\xE2m"
+  correctIndex: 1

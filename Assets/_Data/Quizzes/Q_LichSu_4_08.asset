@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_LichSu_4_08
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "C\xE2u n\xF3i c\u1EE7a Tr\u1EA7n B\xECnh Tr\u1ECDng khi b\u1ECB gi\u1EB7c
+    Nguy\xEAn b\u1EAFt:"
+  answers:
+  - "'Ta th\xE0 l\xE0m qu\u1EF7 n\u01B0\u1EDBc Nam'"
+  - "'Ph\u1EA3i \u0111\xE1nh'"
+  - "'H\xE0ng gi\u1EB7c'"
+  - "'Tr\u1ED1n \u0111i'"
+  correctIndex: 0

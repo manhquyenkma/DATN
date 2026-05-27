@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_GDQuocPhong_1_08
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "T\u1ED1c \u0111\u1ED9 \u0111i \u0111\u1EC1u trung b\xECnh:"
+  answers:
+  - "60-80 b\u01B0\u1EDBc/ph\xFAt"
+  - "100-110 b\u01B0\u1EDBc/ph\xFAt"
+  - "160 b\u01B0\u1EDBc/ph\xFAt"
+  - "200 b\u01B0\u1EDBc/ph\xFAt"
+  correctIndex: 1

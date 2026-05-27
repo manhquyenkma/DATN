@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_ChinhTri_3_07
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "T\u1ED5ng B\xED th\u01B0 \u0111\u1EA7u ti\xEAn c\u1EE7a \u0110\u1EA3ng
+    l\xE0:"
+  answers:
+  - "H\u1ED3 Ch\xED Minh"
+  - "Tr\u1EA7n Ph\xFA"
+  - "L\xEA H\u1ED3ng Phong"
+  - "H\xE0 Huy T\u1EADp"
+  correctIndex: 1

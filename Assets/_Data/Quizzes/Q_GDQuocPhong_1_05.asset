@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_GDQuocPhong_1_05
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "Quay b\xEAn ph\u1EA3i, g\xF3t ch\xE2n l\xE0m tr\u1EE5 l\xE0:"
+  answers:
+  - "G\xF3t ph\u1EA3i"
+  - "G\xF3t tr\xE1i"
+  - "C\u1EA3 hai"
+  - "M\u0169i ch\xE2n ph\u1EA3i"
+  correctIndex: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_LichSu_4_04
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "T\xE1c ph\u1EA9m 'H\u1ECBch t\u01B0\u1EDBng s\u0129' do ai vi\u1EBFt?"
+  answers:
+  - "Tr\u1EA7n Quang Kh\u1EA3i"
+  - "Tr\u1EA7n H\u01B0ng \u0110\u1EA1o"
+  - "L\xEA L\u1EE3i"
+  - "Nguy\u1EC5n Tr\xE3i"
+  correctIndex: 1

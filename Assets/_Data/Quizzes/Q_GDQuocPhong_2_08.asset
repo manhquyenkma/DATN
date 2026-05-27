@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_GDQuocPhong_2_08
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "Kho\xE1 an to\xE0n AK g\u1EA1t l\xEAn l\xE0:"
+  answers:
+  - "Kho\xE1 an to\xE0n"
+  - "B\u1EAFn ph\xE1t m\u1ED9t"
+  - "B\u1EAFn li\xEAn thanh"
+  - "M\u1EDF n\u1EAFp h\u1ED9p kho\xE1 n\xF2ng"
+  correctIndex: 0

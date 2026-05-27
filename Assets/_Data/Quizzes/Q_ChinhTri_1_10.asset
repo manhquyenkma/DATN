@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_ChinhTri_1_10
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "Ch\u1EE7 ngh\u0129a x\xE3 h\u1ED9i khoa h\u1ECDc kh\xE1c ch\u1EE7 ngh\u0129a
+    x\xE3 h\u1ED9i kh\xF4ng t\u01B0\u1EDFng \u1EDF ch\u1ED7:"
+  answers:
+  - "C\xF3 c\u01A1 s\u1EDF khoa h\u1ECDc v\xE0 ch\u1EC9 ra giai c\u1EA5p c\xF4ng
+    nh\xE2n l\xE0 l\u1EF1c l\u01B0\u1EE3ng c\xE1ch m\u1EA1ng"
+  - "Mong mu\u1ED1n x\xE3 h\u1ED9i c\xF4ng b\u1EB1ng"
+  - "Ph\xEA ph\xE1n b\u1EA5t c\xF4ng x\xE3 h\u1ED9i"
+  - "\u0110\u1EC1 cao \u0111\u1EA1o \u0111\u1EE9c"
+  correctIndex: 0

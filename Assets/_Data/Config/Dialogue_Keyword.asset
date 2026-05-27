@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf0355605d348f42b2d52393d3ee9d0, type: 3}
+  m_Name: Dialogue_Keyword
+  m_EditorClassIdentifier: TrainAI.SO.Concrete::TrainAI.SO.Concrete.KeywordDialogueSO
+  rules:
+  - intent: 0
+    regexPattern: "(?i)(l\u1ECBch|h\xF4m nay|nhi\u1EC7m v\u1EE5|l\xE0m g\xEC|th\u1EDDi
+      kh\xF3a bi\u1EC3u)"
+  - intent: 1
+    regexPattern: "(?i)(\u0103n|c\u01A1m|\u0111\xF3i|m\u1EA5y gi\u1EDD \u0103n|nh\xE0
+      \u0103n)"
+  - intent: 2
+    regexPattern: "(?i)(\u1EDF \u0111\xE2u|\u0111\u01B0\u1EDDng n\xE0o|ch\u1ED7 n\xE0o|h\u01B0\u1EDBng
+      n\xE0o)"
+  - intent: 3
+    regexPattern: "(?i)(h\u1ECDc|b\xE0i|ki\u1EBFn th\u1EE9c|thi|gi\u1EA3ng|gi\xE1o
+      tr\xECnh)"
+  - intent: 4
+    regexPattern: "(?i)(xong|ho\xE0n th\xE0nh|b\xE1o c\xE1o|r\u1ED3i)"
+  - intent: 5
+    regexPattern: "(?i)(ngh\u1EC9|xin ph\xE9p|v\u1EAFng|\u1ED1m|m\u1EC7t)"
+  - intent: 6
+    regexPattern: "(?i)(ch\xE0o|t\u1EA1m bi\u1EC7t|bye)"
+  fallback: 7

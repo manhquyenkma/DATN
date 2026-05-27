@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_LichSu_3_03
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "Kinh \u0111\xF4 c\u1EE7a nh\xE0 \u0110inh \u0111\u1EB7t t\u1EA1i:"
+  answers:
+  - "C\u1ED5 Loa"
+  - "Hoa L\u01B0"
+  - "Th\u0103ng Long"
+  - "Ph\xFA Xu\xE2n"
+  correctIndex: 1

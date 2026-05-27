@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_GDQuocPhong_6_05
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "Khi \u0103n trong t\u1EADp th\u1EC3, qu\xE2n nh\xE2n:"
+  answers:
+  - "\u0102n v\u1ED9i"
+  - "C\xF3 n\u1EC1 n\u1EBFp, v\u0103n ho\xE1"
+  - "\u0102n ri\xEAng l\u1EBB"
+  - "Tu\u1EF3 ti\u1EC7n"
+  correctIndex: 1

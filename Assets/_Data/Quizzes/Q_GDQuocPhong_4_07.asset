@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9f6b65e29deb6458143c89c9a12203, type: 3}
+  m_Name: Q_GDQuocPhong_4_07
+  m_EditorClassIdentifier: TrainAI.SO.Base::TrainAI.SO.Base.QuizQuestionSO
+  question: "Ng\u1EE5y trang gi\xFAp:"
+  answers:
+  - "Trang tr\xED"
+  - "Che m\u1EAFt \u0111\u1ECBch, gi\u1EA3m th\u01B0\u01A1ng vong"
+  - "T\u0103ng tr\u1ECDng l\u01B0\u1EE3ng"
+  - "B\u1EA3o v\u1EC7 v\u0169 kh\xED"
+  correctIndex: 1
